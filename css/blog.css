@@ -1,0 +1,29 @@
+@import './styles.css';
+
+#toggleTheme, #backButton {
+    margin: 1em;
+    padding: 0.5em;
+    cursor: pointer;
+}
+
+#postsContainer {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.post {
+    background: #f4f4f4;
+    padding: 1em;
+    margin: 1em 0;
+    border: 1px solid #ccc;
+}
+
+.post h2 {
+    margin-top: 0;
+}
+
+.post p {
+    margin: 0.5em 0;
+}
